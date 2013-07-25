@@ -1,0 +1,553 @@
+.ssbw_button {
+    box-shadow: 0px 2px 2px 1px #909090;
+}
+
+
+
+/* ========================= */
+/* == WELCOME BACK STYLES == */
+/* ========================= */
+
+#welcome_back_message {
+    float: right;
+    
+    margin-top: 59px;
+    margin-left: 115px;
+    margin-bottom: -5px;
+}
+
+#welcome_back_message p {
+    display: inline;
+}
+
+#welcome_back_message a {
+    font-size: 14px;
+    
+    color: #2C2C2C;
+}
+
+#log_out_link {
+    display: inline;
+    
+    text-decoration: none;
+}
+
+
+
+
+/* ========================= */
+/* === LOGIN_ERROR STYLES == */
+/* ========================= */
+
+#login_error_message {
+    float: left;
+    
+    background: -moz-linear-gradient(top, #F9F9F9, #F5F5F5);
+    border: solid 1px #C6C6C6;
+    
+    width: 60%;
+    
+    text-align: center;
+    
+    margin: 50px 20% 40px;
+    
+    padding-bottom: 20px;
+}
+
+#login_error_header {
+    font-size: 22px;
+    
+    color: #784994;
+}
+
+#login_error_message_text {
+    color: #2C2C2C;
+    
+    text-align: center;
+}
+
+#login_try_again_link {
+    font-size: 14px;
+    
+    text-align: center;
+}
+
+
+
+
+/* ========================= */
+/* == MEMBER SUBNAV STYLES = */
+/* ========================= */
+
+.member_subnav {
+    background: -moz-linear-gradient(top, #F9F9F9, #F5F5F5);
+    border: solid 2px #999999;
+    
+    width: 17%;
+    
+    float: left;
+    
+    margin-top: 50px;
+    margin-left: 15%;
+    
+}
+
+.member_subnav ul {
+    list-style-type: none;
+    
+    margin-left: -15px;
+    margin-right: 10px;
+    margin-bottom: 25px;
+}
+
+.member_subnav ul li {
+    font-family: "Century Gothic", "Monotype Twentieth Century", Arial, sans-serif;
+    
+    margin-top: 20px;
+}
+
+.member_subnav a {
+    text-decoration: none;
+    
+    color: #2C2C2C;
+}
+
+.current_page {
+    font-weight: bold;
+}
+
+
+
+
+/* ========================= */
+/* ===== PROFILE STYLES ==== */
+/* ========================= */
+
+#profile_info_section {
+    background-color: #DFF4F5;
+    border: solid 2px #4D9FA3;
+    
+    float: right;
+    
+    width: 50%;
+    
+    margin-top: 50px;
+    margin-right: 15%;
+    margin-bottom: 15px;
+}
+
+#profile_info_section div>ul {
+    list-style-type: none;
+    
+    padding-left: 0px;
+}
+
+#profile_info_section div ul li {
+    margin-top: 10px;
+}
+
+#profile_header {
+    margin: 20px 0px 20px 20px;
+    
+    float: left;
+}
+
+#profile_info_labels {
+    float: left;
+    clear: left;
+    
+    margin-left: 20px;
+}
+
+#wedding_day_info_labels {
+    margin-top: 46px;
+}
+
+#address_info_labels {
+    margin-top: 40px;
+}
+
+#contact_info_labels {
+    margin-top: 40px;
+    
+    padding-bottom: 15px;
+}
+
+#profile_info_data {
+    float: right;
+    
+    margin-right: 120px;
+}
+
+#wedding_day_info_data {
+    margin-top: 46px;
+    margin-bottom: 40px;
+}
+
+#contact_info_data {
+    margin-top: 40px;
+}
+
+#edit_profile_button {
+    margin-top: 20px;
+    margin-left: 120px;
+}
+
+
+
+
+
+/* ========================= */
+/* == EDIT PROFILE STYLES == */
+/* ========================= */
+
+.back_link {
+    font-size: 14px;
+    
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+#edit_profile_form {
+    float: right;
+    
+    margin-right: 90px;
+}
+
+#edit_username {
+    margin-top: 17px;
+}
+
+#edit_password {
+    margin-top: 7px;
+}
+
+#edit_first_name {
+    margin-top: 7px;
+}
+
+#edit_last_name {
+    margin-top: 7px;
+}
+
+#edit_bride_name {
+    margin-top: 41px;
+}
+
+#edit_groom_name {
+    margin-top: 8px;
+}
+
+#edit_wedding_date {
+    margin-top: 8px;
+}
+
+#edit_address {
+    margin-top: 37px;
+}
+
+#edit_state {
+    margin-top: 10px;
+}
+
+#edit_zip_code {
+    margin-top: 8px;
+}
+
+#edit_phone_number {
+    margin-top: 38px;
+}
+
+#edit_email {
+    margin-top: 7px;
+}
+
+#update_profile_button {
+    width: 120px;
+    height: 30px;
+    
+    box-shadow: 0px 2px 2px 1px #909090;
+    
+    float: right;
+    
+    margin-top: 35px;
+    margin-right: 1px;
+    margin-bottom: 25px;
+}
+
+
+
+
+
+/* ========================= */
+/* == WEDDING INFO STYLES == */
+/* ========================= */
+
+#wedding_info_section {
+    background-color: #DFF4F5;
+    border: solid 2px #4D9FA3;
+    
+    float: right;
+    
+    width: 50%;
+    
+    margin-top: 50px;
+    margin-right: 15%;
+    margin-bottom: 15px;
+}
+
+#wedding_info_section div>ul {
+    list-style-type: none;
+    
+    padding-left: 0px;
+}
+
+#wedding_info_section div ul li {
+    margin-top: 10px;
+}
+
+#profile_header {
+    margin: 20px 0px 20px 20px;
+    
+    float: left;
+}
+
+#wedding_info_labels {
+    float: left;
+    clear: left;
+    
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#wedding_package_labels {
+    margin-top: 40px;
+}
+
+#wedding_options_labels {
+    margin-top: 40px;
+}
+
+#wedding_notes {
+    margin-top: 50px;
+}
+
+#wedding_info_data{
+    float: right;
+    
+    margin-top: 11px;
+    margin-right: 85px;
+}
+
+#wedding_package_data {
+    margin-top: 39px;
+}
+
+#wedding_options_data {
+    margin-top: 40px;
+}
+
+#wedding_notes_data {
+    margin-top: 50px;
+}
+
+#edit_wedding_button {
+    margin-top: 20px;
+    margin-left: 75px;
+}
+
+
+
+
+/* ========================= */
+/* == EDIT WEDDING STYLES == */
+/* ========================= */
+
+#edit_wedding_package_labels {
+    margin-top: 10px;
+}
+
+#edit_wedding_options_label {
+    margin-top: 40px;
+}
+
+#edit_wedding_options_labels {
+    margin-top: 40px;
+}
+
+#edit_wedding_notes_label {
+    margin-top: 40px;
+}
+
+#edit_wedding_form {
+    float: right;
+    
+    margin-top: 18px;
+    margin-right: 70px;
+}
+
+#edit_primary_color {
+    margin-top: 10px;
+}
+
+#edit_secondary_color {
+    margin-top: 10px;
+}
+
+#edit_number_chairs {
+    margin-top: 40px;
+}
+
+#edit_number_guests {
+    margin-top: 7px;
+}
+
+#edit_floral_arrangement {
+    margin-top: 10px;
+}
+
+#edit_music_package {
+    margin-top: 12px;
+}
+
+#edit_photography_package {
+    margin-top: 11px;
+}
+
+#edit_wedding_notes {
+    resize: none;
+    
+    margin-top: 37px;
+}
+
+#update_wedding_button {
+    width: 120px;
+    height: 30px;
+    
+    float: right;
+    
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+
+
+
+/* ========================= */
+/* == USER GALLERY STYLES == */
+/* ========================= */
+
+#user_gallery_section {
+    background-color: #DFF4F5;
+    border: solid 1px #4D9FA3;
+    box-shadow: 0px 2px 2px 1px #909090;
+    
+    width: 50%;
+    
+    float: right;
+    
+    margin-right: 15%;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+#member_thumb_images div {
+    margin-left: 10px;
+    width: 29%;
+}
+
+.selected_gallery_image {
+    border: solid 1px #2C2C2C;
+    float: right;
+    margin-top: -273px;
+    margin-right: 13px;
+}
+
+#member_selected_image {
+    margin-top: -220px;
+    margin-left: 0px;
+    
+    margin-bottom: 10px;
+}
+
+.thumbnail_gallery_image {
+    border: solid 1px #2C2C2C;
+    box-shadow: 0px 2px 2px 1px #909090;
+}
+
+#member_thumbs_row_1 {
+    margin-top: 20px;
+}
+
+#member_photo_thumb_2 {
+    margin-left: 10px;
+}
+
+#member_thumbs_row_2 {
+    margin-top: 20px;
+}
+
+#member_photo_thumb_4 {
+    margin-left: 10px;
+}
+
+#member_thumbs_row_3 {
+    margin-top: 20px;
+}
+
+#member_photo_thumb_6 {
+    margin-left: 10px;
+}
+
+
+
+
+/* ========================= */
+/* == CONTACT SSBW STYLES == */
+/* ========================= */
+
+#contact_section {
+    background-color: #DFF4F5;
+    border: solid 2px #4D9FA3;
+    
+    float: right;
+    
+    width: 50%;
+    
+    margin-top: 50px;
+    margin-right: 15%;
+    margin-bottom: 15px;
+}
+
+#contact_header {
+    margin: 20px 0px 20px 20px;
+    
+    float: left;
+}
+
+#contact_ssbw_form {
+    float: left;
+    
+    margin-left: 20px;
+}
+
+#contact_ssbw_form input, #contact_ssbw_form textarea {
+    margin-top: 10px;
+}
+
+#contact_ssbw_text {
+    resize: none;
+    
+    margin-bottom: 15px;
+}
+
+#contact_SSBW_button {
+    width: 75px;
+    height: 25px;
+    
+    float: right;
+    
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+

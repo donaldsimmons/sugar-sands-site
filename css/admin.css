@@ -1,0 +1,834 @@
+#admin_subnav {
+    margin-left: 6%;
+}
+
+.delete_button {
+    color: #2c2c2c;
+    text-decoration: none;
+    
+    float: right;
+    
+    display: none;
+}
+
+.admin_list_item {
+    margin-top: 10px;
+}
+
+
+/* ========================= */
+/* == MEMBER LIST STYLES === */
+/* ========================= */
+
+#member_list_section {
+    background-color: #DFF4F5;
+    border: solid 1px #4D9FA3;
+    
+    width: 35%;
+    
+    float: left;
+    
+    margin-top: 50px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+
+#member_list_section h2 {
+    float: left;
+    
+    margin-left: 15px;
+}
+
+#new_member_button {
+    float: right;
+    
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+#members_list {
+    float: left;
+    clear: left;
+    
+    margin-left: 15px;
+}
+
+#members_list ul {
+    list-style-type: none;
+    
+    padding-left: 0px;
+}
+
+#member_list_item {
+    width: 300px;
+}
+
+#members_list ul a {
+    text-decoration: none;
+    
+    color: #2C2C2C;
+}
+
+#upcoming_weddings_section {
+    background-color: #DFF4F5;
+    border: solid 1px #4D9FA3;
+    
+    width: 30%;
+    
+    float: left;
+    
+    margin-top: 50px;
+    margin-left: 25px;
+}
+
+#upcoming_weddings_section h3 {
+    float: left;
+    
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+
+
+/* ========================= */
+/* = MEMBER DETAIL STYLES == */
+/* ========================= */
+
+#member_details_subnav {
+    margin-left: 10%;
+}
+
+#member_details_back_link {
+    float: right;
+    
+    padding-right: 15px;
+    
+    margin-top: 50px;
+    margin-right: 55%;
+}
+
+#member_profile_info_section {
+    background-color: #DFF4F5;
+    border: solid 1px #4D9FA3;
+    
+    width: 60%;
+    
+    float: right;
+    
+    margin-right: 10%;
+}
+
+#member_profile_info_section h2 {
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+
+#member_profile_info_section div ul {
+    list-style-type: none;
+    
+    padding-left: 0px;
+    
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+#member_contact_labels {
+    margin-bottom: 30px;
+}
+
+#member_profile_info_section div ul li {
+    margin-top: 10px;
+}
+
+#member_profile_labels {
+    float: left;
+    clear: left;
+}
+
+#member_profile_data {    
+    width: 400px;
+    
+    float: right;
+    
+    margin-right: 40px;
+}
+
+#member_wedding_info_section {
+    background-color: #DFF4F5;
+    border: solid 1px #4D9FA3;
+    
+    width: 60%;
+    
+    float: right;
+    
+    margin-top: 10px;
+    margin-right: 10%;
+}
+
+#member_wedding_info_section h2 {
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+
+#edit_member_wedding_button {
+    width: 120px;
+    height: 30px;
+    
+    float: right;
+    
+    margin-top: -30px;
+    margin-right: 25px;
+}
+
+#change_indicator {
+    width: 150px;
+    height: 45px;
+    
+    float: left;
+    
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+#member_wedding_info_section div ul {
+    list-style-type: none;
+    
+    padding-left: 0px;
+    
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+#member_wedding_notes_label {
+    float: left;
+    
+    padding-left: 5px;
+
+    margin-bottom: 30px;
+}
+
+#member_wedding_options_labels {
+    margin-bottom: 5px;
+}
+
+#member_wedding_info_section div ul li {
+    margin-top: 10px;
+}
+
+#member_wedding_labels {
+    float: left;
+    clear: left;
+    
+    margin-top: -20px;
+}
+
+#member_wedding_data {
+    width: 350px;
+    
+    float: right;
+    
+    margin-top: -19px;
+    margin-right: 40px;
+}
+
+#member_wedding_notes_data {
+    margin-top: 44px;
+    margin-left: 20px;
+}
+
+#member_gallery_info_section {
+    background-color: #DFF4F5;
+    border: solid 1px #4D9FA3;
+    
+    width: 60%;
+    
+    float: right;
+    
+    margin-top: 10px;
+    margin-right: 10%;
+}
+
+#member_gallery_info_section h2 {
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+
+#member_gallery_message {
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+#member_gallery_list {
+    list-style-type: none;
+    
+    padding-left: 0px;
+    
+    margin-left: 20px;
+}
+
+#member_gallery_list li {
+    margin-top: 5px;
+    
+    width: 530px;
+}
+
+#add_member_image_section {
+    width: 500px;
+    
+    background-color: #FAFAFA;
+    border: solid 2px #784994;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 2px 2px 1px #909090;
+    
+    float: left;
+    
+    margin-top:20px;
+    margin-left: 35px;
+    margin-bottom: 30px;
+}
+
+#add_member_image_section h4 {
+    color: #784994;
+    
+    float: left;
+    
+    margin-left: 20px;
+    margin-bottom: 35px;
+}
+
+#add_member_image_section label {
+    float: left;
+    clear: left;
+    
+    margin-left: 20px;
+}
+
+#member_gallery_image_url {
+    border: solid 2px #555555;
+    
+    float: left;
+    
+    margin-top: -2px;
+    margin-left: 15px;
+}
+
+#add_image_button {
+    width: 90px;
+    height: 25px;
+    
+    float: right;
+    
+    margin-top: 30px;
+    margin-right: 39px;
+    margin-bottom: 25px;
+}
+
+#wedding_changes_section {
+    background-color: #DFF4F5;
+    border: solid 2px #4D9FA3;
+    
+    width: 50%;
+    
+    float: right;
+    
+    margin-top: 10px;
+    margin-right: 15%;
+    margin-bottom: 20px;
+}
+
+#wedding_changes_section h3 {
+    float: left;
+    
+    margin-left: 20px;
+}
+
+
+
+
+
+/* ========================== */
+/* = ADD MEMBER LIST STYLES = */
+/* ========================== */
+
+#add_member_section {
+    background-color: #DFF4F5;
+    border: solid 1px #4D9FA3;
+    
+    width: 50%;
+    
+    float: right;
+    
+    margin-top: 50px;
+    margin-right: 15%;
+    margin-bottom: 20px;
+}
+
+#add_member_section h2 {
+    float: left;
+    
+    margin-left: 20px;
+}
+
+#add_member_labels {
+    float: left;
+    clear: left;
+    
+    margin-left: 20px;
+}
+
+#profile_info_subheader {
+    margin-top: 5px;
+    margin-bottom: -15px;
+}
+
+#wedding_info_subheader {
+    margin-top: 50px;
+    margin-bottom: -15px;
+}
+
+#add_member_labels ul {
+    list-style-type: none;
+    
+    margin-top: 40px;
+    margin-left: 15px;
+    
+    padding-left: 0px;
+}
+
+#add_member_labels ul li {
+    margin-top: 10px;
+}
+
+#member_profile_info_labels li {
+    margin-top: -10px;
+}
+
+#member_wedding_notes_label {
+    margin-top: 40px;
+    margin-left: 15px;
+}
+
+#add_member_form {
+    float: right;
+    clear: right;
+    
+    margin-top: 47px;
+    margin-right: 40px;
+}
+
+#new_password {
+    margin-top: 8px;
+}
+
+#new_first_name {
+    margin-top: 38px;
+}
+
+#new_last_name {
+    margin-top: 7px;
+} 
+
+#new_bride_name {
+    margin-top: 8px;
+}
+
+#new_groom_name {
+    margin-top: 7px;
+}
+
+#new_wedding_date {
+    margin-top: 7px;
+}
+
+#new_address {
+    margin-top: 38px;
+}
+
+#new_state {
+    margin-top: 9px;
+}
+
+#new_zip_code {
+    margin-top: 8px;
+}
+
+#new_phone_number {
+    margin-top: 38px;
+}
+
+#new_email {
+    margin-top: 7px;
+}
+
+#new_package {
+    margin-top: 95px;
+}
+
+#new_primary_color {
+    margin-top: 10px;
+}
+
+#new_secondary_color {
+    margin-top: 10px;
+}
+
+#new_number_chairs {
+    margin-top: 40px;
+}
+
+#new_number_guests {
+    margin-top: 7px;
+}
+
+#new_floral_arrangement {
+    margin-top: 40px;
+}
+
+#new_music_package {
+    margin-top: 11px;
+}
+
+#new_photo_package {
+    margin-top: 11px;
+}
+
+#new_wedding_notes {
+    margin-top: 40px;
+    resize: none;
+}
+
+#add_member_form_submit_button {
+    float: right;
+    
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+
+#add_member_button {
+    width: 120px;
+    height: 30px;
+    
+    float: right;
+    
+    margin-top: 25px;
+    margin-right: 9px;
+    margin-bottom: 20px;
+}
+
+
+
+
+/* ========================= */
+/* = PACKAGES LIST STYLES == */
+/* ========================= */
+
+#packages_list_section {
+    background-color: #DFF4F5;
+    border: solid 1px #4D9FA3;
+    
+    width: 50%;
+    
+    float: right;
+    
+    margin-top: 50px;
+    margin-right: 15%;
+    margin-bottom: 20px;
+}
+
+#packages_list_section h2 {
+    float: left;
+    
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+#new_package_button {
+    float: right;
+    
+    margin-top: 15px;
+    margin-right: 20px;
+}
+
+#packages_list {
+    float: left;
+    clear: left;
+    
+    margin-left: 15px;
+}
+
+#packages_list ul {
+    list-style-type: none;
+    
+    padding-left: 0px;
+}
+
+.package {
+    margin-top: 10px;
+}
+
+#packages_list ul a {
+    text-decoration: none;
+    
+    color: #2C2C2C;
+}
+
+#package_list_item {
+    width: 300px;
+}
+
+
+
+
+/* ========================= */
+/* == ADD PACKAGE STYLES === */
+/* ========================= */
+
+#add_package_section {
+    
+    background-color: #DFF4F5;
+    border: solid 1px #4D9FA3;
+    
+    width: 50%;
+    
+    float: right;
+    
+    margin-top: 50px;
+    margin-right: 15%;
+    margin-bottom: 20px;
+    
+}
+
+#add_package_section h2 {
+    float: left;
+    
+    margin-left: 20px;
+}
+
+#add_package_labels {
+    float: left;
+    clear: left;
+    
+    margin-left: 20px;
+}
+
+#add_package_labels ul {
+    list-style-type: none;
+    
+    margin-top: 40px;
+    margin-left: 15px;
+    
+    padding-left: 0px;
+}
+
+#add_package_labels ul li {
+    margin-top: 10px;
+}
+
+#package_description_label {
+    margin-top: 40px;
+    margin-left: 15px;
+}
+
+#add_package_form {
+    float: right;
+    clear: right;
+    
+    margin-top: 38px;
+    margin-right: 40px;
+}
+
+#new_package_number_chairs {
+    margin-top: 38px;
+}
+
+#new_package_number_guests {
+    margin-top: 7px;
+}
+
+#new_package_floral_arrangement {
+    margin-top: 41px;
+}
+
+#new_package_music_package {
+    margin-top: 10px;
+}
+
+#new_package_photo_package {
+    margin-top: 10px;
+}
+
+#new_package_description {
+    margin-top: 40px;
+    
+    resize: none;
+}
+
+#add_package_button {
+    width: 120px;
+    height: 30px;
+    
+    float: right;
+    
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+
+
+/* ========================= */
+/* === DEALS LIST STYLES === */
+/* ========================= */
+
+#deals_list_section {
+    background-color: #DFF4F5;
+    border: solid 1px #4D9FA3;
+    
+    width: 50%;
+    
+    float: right;
+    
+    margin-top: 50px;
+    margin-right: 15%;
+    margin-bottom: 15px;
+}
+
+#deals_list_section h2 {
+    float: left;
+    
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+#new_deal_button {
+    float: right;
+    
+    margin-top: 15px;
+    margin-right: 20px;
+}
+
+#deals_list {
+    float: left;
+    clear: left;
+    
+    margin-left: 15px;
+}
+
+#deals_list ul {
+    list-style-type: none;
+    
+    padding-left: 0px;
+}
+
+.deal {
+    margin-top: 10px;
+}
+
+#deals_list ul a {
+    text-decoration: none;
+    
+    color: #2C2C2C;
+}
+
+#deal_list_item {
+    width: 300px;
+}
+
+
+
+
+/* ========================= */
+/* ==== ADD DEAL STYLES ==== */
+/* ========================= */
+
+#add_deal_section {
+    
+    background-color: #DFF4F5;
+    border: solid 1px #4D9FA3;
+    
+    width: 50%;
+    
+    float: right;
+    
+    margin-top: 50px;
+    margin-right: 15%;
+    margin-bottom: 20px;
+    
+}
+
+#add_deal_section h2 {
+    float: left;
+    
+    margin-left: 20px;
+}
+
+#add_deal_labels {
+    float: left;
+    clear: left;
+    
+    margin-left: 20px;
+}
+
+#add_deal_labels ul {
+    list-style-type: none;
+    
+    margin-top: 40px;
+    margin-left: 15px;
+    
+    padding-left: 0px;
+}
+
+#add_deal_labels ul li {
+    margin-top: 10px;
+}
+
+#add_deal_form {
+    float: right;
+    clear: right;
+    
+    margin-top: 39px;
+    margin-right: 40px;
+}
+
+#new_deal_number_chairs {
+    margin-top: 37px;
+}
+
+#new_deal_number_guests {
+    margin-top: 6px;
+}
+
+#new_deal_floral_arrangement {
+    margin-top: 41px;
+}
+
+#new_deal_music_package {
+    margin-top: 10px;
+}
+
+#new_deal_photo_package {
+    margin-top: 10px;
+}
+
+#new_deal_discount {
+    margin-top: 38px;
+}
+
+#new_deal_of_month {
+    margin-top: 11px;
+}
+
+#new_deal_description {
+    margin-top: 38px;
+    
+    resize: none;
+}
+
+#add_deal_button {
+    width: 120px;
+    height: 30px;
+    
+    float: right;
+    
+    margin-top: 25px;
+    margin-bottom: 20px;
+}

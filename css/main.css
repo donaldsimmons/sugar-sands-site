@@ -1,0 +1,1444 @@
+a {
+    color: #784994;
+}
+
+.container {
+    width: 960px;
+    
+    margin: 0 auto;
+    
+    font-family: "Arial", sans-serif;
+}
+
+.script_header {
+    font-family: "Brush Script Std", sans-serif;
+    font-weight: normal;
+    font-size: 28px;
+    margin-top: 10px;
+}
+
+.sub_header {
+    color: #969696;
+    font-size: 16px;
+    margin-top: -28px;
+}
+
+
+
+/* ========================= */
+/* ===== HEADER STYLES ===== */
+/* ========================= */
+
+#header_logo {
+    width: 450px;
+    height: 120px;
+    
+    margin-top: 10px;
+    margin-bottom: -10px;
+    
+    float: left;
+}
+
+#login_form_div {
+    margin-top: 45px;
+    margin-right: 5px; 
+    
+    float: right;
+}
+
+#login_header {
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+    
+    color: #2C2C2C;
+    
+    margin-bottom: 3px;
+}
+
+#forgot_password_link {
+    font: 10px arial, sans-serif;
+    color: #2C2C2C;
+    
+    margin-top: 5px;
+    margin-right: 87px;
+    
+    float: right;
+}
+
+#forgot_password_link:hover {
+    color: #D78329;
+}
+
+#purple_nav_bar {
+    box-shadow: 0px 2px 2px 1px #999999;
+}
+
+/* ============================= */
+/* == Forgot Password Styles === */
+/* ============================= */
+
+#back_to_home_link {
+    float: left;
+    
+    margin-top: 50px;
+    margin-left: 15%;
+}
+
+#forgot_password_section {
+    background-color: #DFF4F5;
+    border: solid 1px #4D9FA3;
+    
+    width: 70%;
+    
+    float: left;
+    clear: left;
+    
+    margin-left: 15%;
+    margin-bottom: 25px;
+}
+
+#forgot_password_intro {
+    color: #2C2C2C;
+    
+    width: 35%;
+    
+    float: left;
+    
+    margin-left: 30px;
+    margin-bottom: 8px;
+}
+
+#forgot_password_intro p {
+    font-size: 15px;
+}
+
+#forgot_password_form {
+    float: right;
+    
+    margin-top: 30px;
+    margin-right: 40px;
+    
+    padding: 15px;
+    
+    border: solid 1px #4D9FA3;
+}
+
+#forgot_password_form label {
+    float: left;
+    
+    margin-top: 10px;
+}
+
+#forgot_password_form input {
+    float: right;
+    clear: right;
+    
+    margin-top: 8px;
+    margin-left: 15px;
+}
+
+#forgot_password_email {
+    margin-bottom: 15px;
+}
+
+#forgot_password_button {
+    width: 75px;
+    height: 25px;
+    
+    float: right;
+    
+    margin-top: 25px;
+}
+
+
+
+
+/* ============================= */
+/* ===== Navigation Styles ===== */
+/* ============================= */
+
+#nav_list li{
+    float: left;
+    position: relative;
+    
+    list-style: none;
+    
+    font-family: "Arial", sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    
+    margin-top: -15px;
+    margin-left: 70px;
+}
+
+#nav_list li a {
+    display: block;
+    
+    color: #784994;
+    
+    text-decoration: none;
+    
+    padding: 3px 10px 3px 10px;
+}
+
+#nav_list {
+    display: block;
+}
+
+#nav_list li ul {
+    background-color: #FFFFFF;
+    border: solid 1px #909090;
+    color: #784994;
+    margin-left: -5px;
+    display: none;
+    width: 90px;
+    position: absolute;
+    
+    box-shadow: 0px 2px 2px 1px #999999;
+}
+
+#nav_list li ul li {
+    font-size: 14px;
+    
+    margin: 2.5px -5px 2.5px -40px;
+    padding-left: 5px;
+    
+    width: 125px;
+}
+#nav_list li ul li:hover {
+    background-color: #784994;
+}
+
+#nav_list li ul li a {
+    background: none;
+    
+    width: 90%;
+    padding: 5px;
+}
+#nav_list li ul li a:hover {
+    background-color: #784994;
+    color: #FAFAFA;
+}
+
+#nav_list li:hover > ul.drop_down {
+    display: block;
+    
+    z-index: 1000;
+}
+
+
+
+/* ========================= */
+/* ===== Footer Styles ===== */
+/* ========================= */
+
+footer {
+    font-size: 12px;
+    color: #784994;
+    float: left;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer li {
+    float: left;
+    margin-left: 125px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #784994;
+}
+footer a:hover {
+    color: #D78329;
+}
+
+
+
+/* ============================= */
+/* ===== Home Styles ===== */
+/* ============================= */
+
+#home_slideshow {
+    box-shadow: 0px 2px 2px 1px #909090;
+    
+    width: 80%;
+    height: 300px;
+    
+    margin-left: 10%;
+    margin-top: 7%;
+    margin-bottom: 20px;
+}
+
+.slide {
+    display: none;
+}
+
+#elopements_slide {
+    background: url('../assets/images/slideshow/couple.png') no-repeat;
+    height: 300px;
+    width: 768px;
+}
+
+#elopement_banner {
+    float: right;
+    margin-top: 190px;
+}
+
+#services_slide {
+    background: url('../assets/images/slideshow/family.png');
+    height: 300px;
+    width: 768px;
+}
+
+#services_banner {
+    float: left;
+    margin-top: 215px;
+}
+
+#services_header {
+    font-size: 28px;
+}
+
+#services_subheader {
+    margin-right: 70px;
+}
+
+#location_slide {
+    background: url('../assets/images/slideshow/beach.png');
+    height: 300px;
+    width: 768px;
+}
+
+#location_banner {
+    float: right;
+    margin-top: 30px;
+}
+
+#location_header {
+    font-size: 28px;
+}
+
+#location_subheader {
+    margin-right: 70px;
+}
+
+.banner {
+    background-color: #FFFFFF;
+    opacity: .80;
+    width: 500px;
+    
+    z-index: 0;
+    
+    box-shadow: 0px 2px 2px 1px #909090;
+}
+
+#elopement_subheader {
+    margin-right: 10px;
+    margin-bottom: 3px;
+}
+
+.banner_header {
+    font-family: "Brush Script Std";
+    color: #2B2A55;
+    font-weight: 400;
+    font-size: 30px;
+    
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+    margin-bottom: -23px;
+}
+
+.banner_subheader {
+    color: #6A6A6A;
+    font-family: "Century Gothic", "Monotype Twentieth Century", Arial, sans-serif;
+    font-size: 14px;
+   
+    float: right;
+    clear: both;
+}
+
+#beach_slide {
+    background: url('../assets/images/slideshow/beach_plain.png');
+    height: 300px;
+    width: 768px;
+}
+
+#services_teaser {
+    width: 35%;
+    margin-left: 10%;
+    float: left;
+}
+
+#services_teaser h2, #services_teaser h3 {
+    margin-left: 125px;
+}
+
+#services_teaser h2 {
+    margin-top: -125px;
+    font-size: 36px;
+}
+
+#services_teaser h3 {
+    margin-top: -44px;
+}
+
+#services_teaser p {
+    font-size: 12px;
+    color: #2C2C2C;
+    margin-left: 125px;
+    margin-top: -10px;
+}
+
+#services_teaser img {
+    margin-top: 5px;
+    padding-top: 5px;
+}
+
+#services_teaser a {
+    margin-top: 5px;
+}
+
+
+#location_teaser {
+    width: 38%;
+    margin-right: 10%;
+    margin-bottom: 15px;
+    float: right;
+}
+
+#location_teaser h2, #location_teaser h3 {
+    margin-left: 132px;
+}
+
+#location_teaser h2 {
+    margin-top: -125px;
+    font-size: 36px;
+}
+
+#location_teaser h3 {
+    margin-top: -44px;
+}
+
+#location_teaser p {
+    font-size: 12px;
+    color: #2C2C2C;
+    margin-left: 132px;
+    margin-top: -10px;
+}
+
+#location_teaser img {
+    margin-top: 5px;
+    padding-top: 5px;
+}
+
+#location_teaser a {
+    margin-top: 5px;
+}
+
+
+
+/* ============================= */
+/* ===== About SSBW Styles ===== */
+/* ============================= */
+
+#about_intro {
+    width: 960px;
+    color: #2C2C2C;
+}
+
+
+#arch_photo {
+    width: 40%;
+    height: 100%;
+    border: solid 1px #909090;
+    box-shadow: 0px 2px 2px 1px #999999;
+    margin-top: 30px;
+    margin-left: 8%;
+    float: left;
+}
+
+#about_intro_text {
+    width: 40%;
+    
+    float: right;
+    margin-top: 30px;
+    margin-right: 8%;
+    
+    background-color: #DFF4F5;
+    border: solid 1px #4D9FA3;
+}
+
+#about_intro_text h2, #about_intro_text h3, #about_intro_text p {
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+#about_intro_text p {
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+#mission_statement {
+    width: 40%;
+    float: left;
+    
+    margin-top: 35px;
+    margin-left: 8%;
+    
+    border: solid 1px #C6C6C6;
+    background: -moz-linear-gradient(top, #F9F9F9, #F5F5F5);
+}
+
+#mission_statement ul {
+    list-style-type: none;
+    font-size: 11px;
+    margin-left: -30px;
+    padding-bottom: 5px;
+}
+
+#mission_statement h2, #mission_statement h3 {
+    padding-left: 10px;
+    padding-right: 15px;
+}
+
+#mission_statement p {
+    margin-top: -25px;
+    margin-left: 45px;
+}
+
+#mission_statement li {
+    margin-top: -15px;
+}
+
+#services_section {
+    width: 40%;
+    float: right;
+    
+    margin-top: 35px;
+    margin-right: 8%;
+    
+    background: -moz-linear-gradient(top, #F9F9F9, #F5F5F5);
+    border: solid 1px #C6C6C6;
+}
+
+#services_section h2, #services_section h3 {
+    padding-left: 10px;
+    padding-right: 15px;
+    
+    margin-left: 80px;
+}
+
+#services_section h2 {
+    font-size: 32px;
+    margin-top: -80px;
+}
+
+#services_section h3 {
+    margin-top: -40px;
+}
+
+#services_icon {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+#see_more_services_link {
+    float: right;
+    margin-top: -5px;
+    margin-right: 15px;
+    margin-bottom: 5px;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+#location_section {
+    width: 40%;
+    float: right;
+    
+    margin-top: 25px;
+    margin-right: 8%;
+    
+    background: -moz-linear-gradient(top, #F9F9F9, #F5F5F5);
+    border: solid 1px #C6C6C6;
+}
+
+#location_section h2, #location_section h3 {
+    padding-left: 15px;
+    padding-right: 15px;
+    
+    margin-left: 80px;
+}
+
+#location_section h2 {
+    font-size: 32px;
+    margin-top: -80px;
+}
+
+#location_section h3 {
+    margin-top: -40px;
+}
+
+#location_icon {
+    padding-top: 9px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+#see_more_location_link {
+    float: right;
+    margin-top: -5px;
+    margin-right: 15px;
+    margin-bottom: 5px;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+
+
+/* ============================= */
+/* ===== Services Styles ===== */
+/* ============================= */
+
+#coordinate_section {
+    background: -moz-linear-gradient(top, #F9F9F9, #F5F5F5);
+    border: solid 1px #C6C6C6;
+    width: 80%;
+        
+    float: left;
+    
+    margin-top: 50px;
+    margin-left: 9%;
+    
+    padding: 10px;
+}
+
+#coordinate_section img {
+    box-shadow: 0px 2px 2px 1px #909090;
+    border: solid 1px #999999;
+    
+    float: left;
+}
+
+#coordinate_text {
+    float: right;
+}
+
+#coordinate_section h2, #coordinate_section p {
+    margin-left: 295px;
+}
+
+#coordinate_section h2 {
+    margin-top: -180px;
+}
+
+#coordinate_section p {
+    color: #2C2C2C;
+    font-size: 12px;
+    
+    width: 60%;
+}
+
+#music_section {
+    background: -moz-linear-gradient(top, #F9F9F9, #F5F5F5);
+    border: solid 1px #C6C6C6;
+    width: 80%;
+    
+    float: left;
+    
+    margin-top: 20px;
+    margin-left: 9%;
+    
+    padding: 10px;
+}
+
+#music_section img {
+    float: left;
+    
+    box-shadow: 0px 2px 2px 1px #909090;
+    border: solid 1px #999999;
+}
+
+#music_text {
+    float: right;
+}
+
+#music_section h2, #music_section p {
+    margin-left: 295px;
+}
+
+#music_section h2 {
+    margin-top: -180px;
+}
+
+#music_section p {
+    color: #2C2C2C;
+    font-size: 12px;
+    
+    width: 60%;
+}
+
+#photography_section {
+    background: -moz-linear-gradient(top, #F9F9F9, #F5F5F5);
+    border: solid 1px #C6C6C6;
+    width: 80%;
+    
+    margin-top: 20px;
+    margin-left: 9%;
+    margin-bottom: 15px;
+    
+    float: left;
+    
+    padding: 10px;
+}
+
+#photography_section img {
+    float: left;
+
+    box-shadow: 0px 2px 2px 1px #909090;
+    border: solid 1px #999999;
+}
+
+#photography_text {
+    float: right;
+}
+
+#photography_section h2, #photography_section p {
+    margin-left: 295px;
+}
+
+#photography_section h2 {
+    margin-top: -180px;
+}
+
+#photography_section p {
+    color: #2C2C2C;
+    font-size: 12px;
+    
+    width: 60%;
+}
+
+
+
+
+/* ============================= */
+/* ===== Location Styles ===== */
+/* ============================= */
+
+#photo_header {
+    width: 90%;
+    margin-top: 60px;
+    margin-left: 5%;
+    margin-bottom: 3%;
+}
+
+#photo_header img {
+    border: solid 1px #2C2C2C;
+    box-shadow: 0px 2px 2px 1px #999999;
+}
+
+#pier_park_photo {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#location_intro {
+    background-color: #DFF4F5;
+    border: solid 1px #4D9FA3;
+    
+    float: left;
+    width: 35%;
+    
+    margin-left: 5%;
+}
+
+#location_intro h2, #location_intro h3, #location_intro p {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#location_script_header {
+    font-size: 24px;
+}
+
+#location_intro p {
+    color: #2C2C2C;
+    font-size: 12px;
+    padding-bottom: 25px;
+}
+
+#links_section {
+    float: right;
+    width: 50%;
+    
+    margin-right: 6%;
+}
+
+#links_section img {
+    border: solid 1px #2C2C2C;
+    box-shadow: 0px 2px 2px 1px #909090;
+    float: left;
+    
+    margin-right: 10px;
+}
+
+#links_section h4, #links_section p, #links_section ul {
+    margin-left: 15px;
+}
+
+#links_section h4 {
+    font-size: 22px;
+    margin-top: 0px;
+    margin-bottom: -20px;
+    margin-left: 10px;
+}
+
+#links_section p {
+    font-size: 14px;
+    color: #909090;
+}
+
+#links_section ul {
+    font-size: 12px;
+    
+    list-style: none;
+}
+
+#links_section a {
+    text-decoration: none;
+}
+
+#attractions_links {
+    background: -moz-linear-gradient(top, #F9F9F9, #F5F5F5);
+    border: solid 1px #C6C6C6;
+    
+    padding: 10px 10px 0px 10px;
+}
+
+#attractions_links ul {
+    margin-top: 22px;
+}
+
+#lodging_links {
+    background: -moz-linear-gradient(top, #F9F9F9, #F5F5F5);
+    border: solid 1px #C6C6C6;
+    
+    margin-top: 2%;
+    padding: 10px 10px 0px 10px;
+}
+
+#lodging_links ul {
+    margin-top: 22px;
+}
+
+#dining_links {
+    background: -moz-linear-gradient(top, #F9F9F9, #F5F5F5);
+    border: solid 1px #C6C6C6;
+    
+    margin-top: 2%;
+    padding: 10px 10px 0px 10px;
+}
+
+#dining_links ul {
+    margin-top: -9px;
+}
+
+
+
+/* ============================= */
+/* === Packages/Deals Styles === */
+/* ============================= */
+
+.package_section {
+    background: -moz-linear-gradient(top, #F9F9F9, #F5F5F5);
+    border: solid 1px #C6C6C6;
+    
+    float: left;
+    
+    width: 70%;
+    margin-left: 15%;
+    
+    margin-top: 10px;
+}
+
+#package1 {
+    margin-top: 50px;
+}
+
+.package_image {
+    float: left;
+    
+    width: 125px;
+    height: 175px;
+    
+    margin: 10px 15px 10px 10px;
+}
+
+.description_text {
+    float: left;
+    
+    margin-top: -200px;
+    margin-left: 150px;
+}
+
+.package_header {
+    margin-bottom: 5px;
+    
+    color: #2C2C2C;
+}
+
+.package_description {
+    font-size: 12px;
+    
+    float: left;
+    
+    width: 175px;
+    
+    color: #2C2C2C;
+}
+
+.includes_list {
+    float: right;
+}
+
+.includes_list p {
+    margin-top: 13px;
+    margin-left: 25px;
+    
+    font-size: 14px;
+    
+    font-family: "Century Gothic", "Monotype Twentieth Century", Arial, sans-serif;
+    font-weight: bold;
+}
+
+.includes_list ul {
+    list-style-type: none;
+    
+    margin-right: 40px;
+    margin-top: -10px;
+}
+
+.includes_list li {
+    font-size: 14px;
+    
+    font-family: "Century Gothic", "Monotype Twentieth Century", Arial, sans-serif;
+}
+
+#deal1 {
+    margin-top: 50px;
+}
+
+.package_detail_button {
+    float: right;
+    clear: right;
+    
+    margin-top: 40px;
+    margin-right: 20px;
+}
+
+
+
+
+/* ============================= */
+/* = Packages Overview Styles == */
+/* ============================= */
+
+#deal_of_month {
+    background-color: #DFF4F5;
+    border: solid 2px #4D9FA3;
+    
+    float: left;
+    width: 70%;
+    
+    margin-top: 50px;
+    margin-left: 15%;
+}
+
+#deal_of_month_header {
+    font-size: 38px;
+    
+    text-decoration: underline;
+    
+    width: 300px;
+
+    margin-top: 15px;
+    margin-left: 17px;
+}
+
+#deal_banner {
+    background: -moz-linear-gradient(top, #74D2D7, #4D9FA3);
+    box-shadow: 0px 2px 2px 1px #999999;
+    
+    float: right;
+    width: 215px;
+    
+    margin-top: -75px;
+    margin-right: -10px;
+}
+
+#deal_banner h3 {
+    color: #FAFAFA;
+    
+    font-family: "Century Gothic", "Monotype Twentieth Century", Arial, sans-serif;
+    font-weight: lighter;
+    font-size: 24px;
+    
+    text-align: center;
+    vertical-align: middle;
+    
+    margin-top: 10px;
+    margin-bottom: 14px;
+}
+
+#deal_of_month_description {
+    margin-top: -30px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+#deal_of_month_image {
+    border: solid 1px #2C2C2C;
+    box-shadow: 0px 2px 2px 1px #909090;
+    
+    margin-top: -25px;
+    margin-left: 17px;
+}
+
+#deal_of_month_list {
+    margin-right: 5px;
+}
+
+#packages_summary {
+    background-color: #DFF4F5;
+    border: solid 1px #4D9FA3;
+
+    float: left;
+    width: 34%;
+    
+    margin-top: 15px;
+    margin-left: 15%;
+}
+
+#deals_summary {
+    background-color: #DFF4F5;
+    border: solid 1px #4D9FA3;
+
+    float: right;
+    width: 34%;
+    
+    margin-top: 15px;
+    margin-right: 15%;
+}
+
+.summary_header {
+    margin-bottom: 5px;
+    
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.summary_text {
+    font-size: 14px;
+    
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#see_details_button {
+    float: right;
+    clear: right;
+    
+    margin-top: 10px;
+    margin-right: 25px;
+}
+
+#view_packages_button {
+    margin-top: 15px;
+    margin-left: 200px;
+    margin-bottom: 10px;
+}
+
+#view_deals_button {
+    margin-top: 32px;
+    margin-left: 201px;
+    margin-bottom: 10px;
+}
+
+
+
+
+/* ============================= */
+/* == Package Details Styles === */
+/* ============================= */
+
+#detail_section {
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+#detail_header {
+    color: #2C2C2C;
+    
+    font-size: 26px;
+    
+    width: 600px;
+    
+    margin-left: 20px;
+}
+
+#package_details_description {
+    width: 325px;
+    
+    float: left;
+    
+    margin-left: 20px;
+}
+
+#package_details_description img {
+    margin-left: 0px;
+}
+
+#package_detail_text {
+    float: left;
+    
+    width: 175px;
+}
+
+#services_list {
+    color: #2C2C2C;
+    width: 275px;
+    
+    float: right;
+    
+    margin-top: 60px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+#options_list {
+    margin-left: 20px;
+}
+
+.option_data {
+    font-size: 14px;
+    
+    margin-top: -15px;
+    margin-left: 20px;
+    margin-bottom: -10px;
+}
+
+#photo_option_data {
+    margin-bottom: 5px;
+}
+
+
+
+
+/* ============================= */
+/* ===== Gallery Styles ===== */
+/* ============================= */
+
+#gallery_section {
+    background-color: #DFF4F5;
+    border: solid 1px #4D9FA3;
+    box-shadow: 0px 2px 2px 1px #909090;
+    
+    width: 70%;
+    height: 300px;
+    
+    margin-left: 16%;
+    margin-top: 7%;
+    margin-bottom: 20px;
+}
+
+#thumb_images {
+    width: 40%;
+    
+}
+
+#thumb_images div {
+    margin-left: 25px;
+}
+
+.selected_gallery_image {
+    border: solid 1px #2C2C2C;
+    float: right;
+    margin-top: -273px;
+    margin-right: 13px;
+}
+
+.thumbnail_gallery_image {
+    border: solid 1px #2C2C2C;
+    box-shadow: 0px 2px 2px 1px #909090;
+}
+
+#thumbs_row_1 {
+    margin-top: 20px;
+}
+
+#photo_thumb_2 {
+    margin-left: 20px;
+}
+
+#thumbs_row_2 {
+    margin-top: 10px;
+}
+
+#photo_thumb_4 {
+    margin-left: 20px;
+}
+
+#thumbs_row_3 {
+    margin-top: 10px;
+}
+
+#photo_thumb_6 {
+    margin-left: 20px;
+}
+
+
+
+/* ============================= */
+/* ===== Book With Us Styles ===== */
+/* ============================= */
+
+#book_intro {
+    background: -moz-linear-gradient(top, #F9F9F9, #F5F5F5);
+    border: solid 1px #C6C6C6;
+    
+    width: 37%;
+    
+    margin-left: 7%;
+    margin-top: 50px;
+    
+    padding: 0px 5px;
+    
+    float: left;
+}
+
+#book_intro p {
+    color: #2C2C2C;
+    font-size: 13px;
+}
+
+#booking_form_section {
+    background-color: #DFF4F5;
+    border: solid 1px #4D9FA3;
+    
+    width: 45%;
+    
+    margin-top: 50px;
+    margin-right: 7%;
+    margin-bottom: 3%;
+    
+    padding-left: 10px;
+    
+    float: right;
+}
+
+#booking_form_section h3 {
+    float: left;
+    
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+#booking_form_section div {
+    margin-left: 5px;
+    
+    float: left;
+}
+
+#booking_form_section ul {
+    list-style-type: none;
+    
+    padding-left: 0px;
+    
+    
+    margin-left: 0px;
+}
+
+#booking_form_section ul li {
+    margin-top: 10px;
+}
+
+#booking_form {
+    float: right;
+
+    margin-top: -414px;
+    margin-right: 25px;
+}
+
+#wedding_notes_label {
+    margin-top: 40px;
+}
+
+#last_name {
+   margin-top: 8px; 
+}
+
+#bride_name {
+   margin-top: 42px; 
+}
+
+#groom_name {
+   margin-top: 8px; 
+}
+
+#wedding_date {
+    margin-top: 8px;
+}
+
+#address {
+   margin-top: 40px; 
+}
+
+#state {
+   margin-top: 9px; 
+}
+
+#zip_code {
+   margin-top: 7px; 
+}
+
+#phone_number {
+   margin-top: 38px; 
+}
+
+#email {
+   margin-top: 8px; 
+}
+
+#choose_package {
+    margin-top: 80px;
+}
+
+#primary_color {
+    margin-top: 10px;
+}
+
+#secondary_color {
+    margin-top: 11px;
+}
+
+#number_chairs {
+    margin-top: 38px;
+}
+
+#number_guests {
+    margin-top: 7px;
+}
+
+#floral_arrangement {
+    margin-top: 10px;
+}
+
+#music_package {
+    margin-top: 12px;
+}
+
+#photography_package {
+    margin-top: 11px;
+}
+
+#set_wedding_notes {
+    resize: none;
+    
+    margin-top: 35px;
+}
+
+#send_booking_request_button {
+    width: 120px;
+    height: 30px;
+    
+    float: right;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+/* ============================= */
+/* === Terms/Policies Styles === */
+/* ============================= */
+
+#terms_policies_section {
+    background-color: #DFF4F5;
+    border: solid 2px #4D9FA3;
+    
+    width: 70%;
+    
+    float: left;
+    
+    margin-left: 15%;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+#terms_policies_section h2 {
+    float: left;
+    
+    margin-top: 45px;
+    margin-left: 65px;
+}
+
+#terms_policies_section div {
+    width: 80%;
+    
+    float:left;
+    
+    margin-left: 70px;
+}
+
+#terms_policies_section p {
+    font-size: 14px;
+}
+
+#scheduling_section p+p {
+    margin-bottom: 40px;
+}
+
+
+
+/* ============================= */
+/* ====== Site Map Styles ====== */
+/* ============================= */
+
+#site_map_section {
+    background-color: #DFF4F5;
+    border: solid 2px #4D9FA3;
+    
+    width: 70%;
+    
+    float: left;
+    
+    margin-left: 15%;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+#site_map_section div {
+    float: left;
+    
+    width: 40%;
+    
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+
+#booking_page_section {
+    clear: left;
+    
+    padding-top: 40px;
+    
+    margin-bottom:40px;
+}
